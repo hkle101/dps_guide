@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DPS Strategies</title>
+
+    <link rel="icon" type="image/png" href="images/favicon_icon.png">
+
+    <link rel="stylesheet/less" type="text/css" href="styles/styles.less">
+    <script src="https://cdn.jsdelivr.net/npm/less@4"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    >
+
+  </head>
+
+  <body>
+
+    <header>
+
+      <h1>DPS Strategies</h1>
+
+      <input type="checkbox" id="menu-toggle">
+
+      <label for="menu-toggle" class="hamburger" aria-label="Toggle navigation menu">
+        <i class="fas fa-bars"></i>
+      </label>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="heroes.html">DPS Heroes</a></li>
+          <li><a href="strategies.html" aria-current="page">Strategies</a></li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <section class="strategy-container">
+
+      <div class="flip-card">
+        <div class="flip-inner">
+
+          <div class="flip-front">
+            <h3 class="hero-name">Flanking</h3>
+            <img class="strategy-image" src="images/flank.png" alt="Flanking strategy">
+          </div>
+
+          <div class="flip-back">
+            <h3>Flanking</h3>
+            <p>
+              Take an off-angle (not main choke) to pressure supports and force enemy cooldowns.
+              Your goal isn’t always a kill — it’s to split attention so your team wins the front fight.
+            </p>
+            <ul>
+              <li>Wait for your tank to engage before you commit.</li>
+              <li>Use cover and escapes; don’t flank with no exit plan.</li>
+              <li>Prioritize isolated supports/DPS over shooting the tank.</li>
+              <li>Disengage as soon as key cooldowns are used (Recall, Wraith, Dash, etc.).</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-inner">
+
+          <div class="flip-front">
+            <h3 class="hero-name">Sniping</h3>
+            <img class="strategy-image" src="images/sniping.png" alt="Sniping strategy">
+          </div>
+
+          <div class="flip-back">
+            <h3>Sniping</h3>
+            <p>
+              Control sightlines and win fights with first picks. Sniping is about positioning,
+              timing, and discipline — not just aim.
+            </p>
+            <ul>
+              <li>Hold high ground when possible; it improves sightlines and safety.</li>
+              <li>Change angles after a kill/whiff so you don’t get dove.</li>
+              <li>Don’t tunnel vision: watch for flankers and listen for footsteps.</li>
+              <li>Play around shields/cover: peek, shoot, unpeek.</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-inner">
+
+          <div class="flip-front">
+            <h3 class="hero-name">Burst Damage</h3>
+            <img class="strategy-image" src="images/burst.png" alt="Burst damage strategy">
+          </div>
+
+          <div class="flip-back">
+            <h3>Burst Damage</h3>
+            <p>
+              Burst is best when you coordinate timing: force a target to use a defensive cooldown,
+              then finish the kill before healing catches up.
+            </p>
+            <ul>
+              <li>Focus the same target as your team (call or ping).</li>
+              <li>Look for enemies without mobility or cover.</li>
+              <li>Save burst combos for when the enemy is committed (after they walk in).</li>
+              <li>Don’t waste burst on tanks unless they’re truly out of position.</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-inner">
+
+          <div class="flip-front">
+            <h3 class="hero-name">High Ground Control</h3>
+            <img class="strategy-image" src="images/high_ground.jpeg" alt="High ground control strategy">
+          </div>
+
+          <div class="flip-back">
+            <h3>High Ground Control</h3>
+            <p>
+              High ground gives better angles, safer damage, and makes it harder for enemies to contest.
+              Winning high ground often wins the entire fight.
+            </p>
+            <ul>
+              <li>Take high ground early (before the fight starts).</li>
+              <li>Drop only when you can secure a kill or you’re forced off.</li>
+              <li>Use mobility to rotate between ledges instead of standing still.</li>
+              <li>Examples: Soldier: 76, Ashe, Sojourn, Hanzo.</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-inner">
+
+          <div class="flip-front">
+            <h3 class="hero-name">Poke / Spam Pressure</h3>
+            <img class="strategy-image" src="images/poke.jpeg" alt="Poke or spam pressure strategy">
+          </div>
+
+          <div class="flip-back">
+            <h3>Poke / Spam Pressure</h3>
+            <p>
+              Constant damage builds ultimate charge, forces supports to heal,
+              and punishes slow rotations.
+            </p>
+            <ul>
+              <li>Hold angles where enemies must cross open space.</li>
+              <li>Track enemy healing.</li>
+              <li>Back up as they close distance instead of brawling.</li>
+              <li>Examples: Pharah, Junkrat, Hanzo, Ashe.</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <section class="feedback">
+      <form>
+
+        <fieldset>
+          <legend>Favorite DPS Hero</legend>
+
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="hero">Favorite Hero</label>
+          <select id="hero" name="hero">
+            <option>Ashe</option>
+            <option>Bastion</option>
+            <option>Cassidy</option>
+            <option>Echo</option>
+            <option>Genji</option>
+            <option>Hanzo</option>
+            <option>Junkrat</option>
+            <option>Mei</option>
+            <option>Pharah</option>
+            <option>Reaper</option>
+            <option>Sojourn</option>
+            <option>Soldier: 76</option>
+            <option>Sombra</option>
+            <option>Symmetra</option>
+            <option>Torbjorn</option>
+            <option>Tracer</option>
+            <option>Venture</option>
+            <option>Widowmaker</option>
+            <option>Anran</option>
+            <option>Emre</option>
+            <option>Freja</option>
+            <option>Vandetta</option>
+          </select>
+
+          <label for="comments">Comments</label>
+          <textarea id="comments" name="comments"></textarea>
+
+          <button type="submit">Submit</button>
+
+        </fieldset>
+
+      </form>
+
+    </section>
+
+    <footer>
+
+      <p>Overwatch DPS Guide</p>
+
+      <p class="footer-credit">
+        Overwatch is a trademark and/or registered trademark of Blizzard Entertainment, Inc.
+        This site is a student project and is not affiliated with or endorsed by Blizzard Entertainment.
+      </p>
+
+    </footer>
+
+  </body>
+</html>
